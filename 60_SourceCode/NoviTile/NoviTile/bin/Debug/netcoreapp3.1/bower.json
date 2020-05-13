@@ -1,0 +1,11 @@
+{
+  "name": "myproject",
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.6",
+    "glyphicons": "0.0.2",
+    "bs-glyphicon": "bootstrap-glyphicon#1.0.8"
+  },
+  "resolutions": {
+    "bootstrap": "^4.5.0"
+  }
+}

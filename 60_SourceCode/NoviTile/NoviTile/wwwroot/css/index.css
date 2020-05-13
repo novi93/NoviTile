@@ -1,0 +1,64 @@
+.admin-panel {
+    overflow: hidden;
+}
+
+    .admin-panel li {
+        float: left;
+        width: 33%;
+        height: 115px;
+        line-height: 1.4;
+        text-align: center;
+        background-color: #cceffc;
+        border: 1px solid #fff;
+    }
+
+        .admin-panel li:hover, .admin-panel li:hover a {
+            color: #fff;
+            background-color: #2a7b9b;
+        }
+
+    .admin-panel .glyphicon {
+        margin-top: 5px;
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
+
+    .admin-panel .admin-panel-class {
+        display: block;
+        text-align: center;
+        -ms-word-wrap: break-word;
+        word-wrap: break-word;
+    }
+
+    .admin-panel li a {
+        color: #333;
+        width: 100%;
+        height: 100%;
+        display: block;
+        padding-top: 10px;
+    }
+
+        .admin-panel li a:hover {
+            text-decoration: none;
+        }
+
+.admin-panel-list {
+    padding-left: 0;
+    list-style: none;
+    margin: auto;
+}
+
+@media (min-width: 768px) {
+    .admin-panel li {
+        width: 25%;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 430px) {
+    .admin-panel li {
+        float: none;
+        width: 100%;
+        font-size: 12px;
+    }
+}
